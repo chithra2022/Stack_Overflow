@@ -17,6 +17,7 @@
 	padding-top: 5.5px;
 	margin-left: 50px;
 	margin-right: 50px;
+	
 }
 .left_header{
 	display: flex;
@@ -36,7 +37,8 @@
 	display: flex;
 	margin-left: 49px;
 	margin-right: 50px;
-	overflow-y: hidden;		
+	margin-bottom: 20px;
+	overflow-y: hidden;	
 }
 .img_logo{
 	width: 145px;
@@ -132,6 +134,15 @@ h6{
 .profile{
 	display: inline-block;
 	padding-left: 10px;
+}
+.profile-btn{
+	padding-left: 450px;
+}
+.profile-values{
+	color: grey;
+	border: 1px solid #a6a8ab;
+	padding: 5.5px;
+	text-align: center;
 }
 .name{
 	color: black;
@@ -295,17 +306,29 @@ p{
 	border: 2px solid #e3e6e4;
 	margin-right: 25px;
 	padding: 5px;
-	width: 100%;
+	/*width: 100%;*/
 }
 .badge1{
 	border: 2px solid #e3e6e4;
 	padding: 5px;
-	width: 100%;
+	/*width: 100%;*/
 }
 .gold{
 	border: 2px solid #e3e6e4;
 	list-style-type: disc;
 	color: #fcb103;
+	padding: 3px;
+} 
+.silver{
+	border: 2px solid #e3e6e4;
+	list-style-type: disc;
+	color: grey;
+	padding: 3px;
+} 
+.bronze{
+	border: 2px solid #e3e6e4;
+	list-style-type: disc;
+	color: brown;
 	padding: 3px;
 } 
 .small_box{	
@@ -319,7 +342,7 @@ p{
 	font-size: 11px;
 }
 .gold_label{
-	padding-left: 30px;
+	padding-left: 50px;
 	text-align: right;
 }
 .gnum{
@@ -344,7 +367,10 @@ p{
 	font-size: 15.5px;
 }
 .top-tags{
-	border: 2px solid #e3e6e4;
+	border-top: 2px solid #e3e6e4;
+	border-left: 2px solid #e3e6e4;
+	border-right: 2px solid #e3e6e4;
+	margin-top: 10px;
 }
 .top-tags li{
 	list-style-type: disc;
@@ -392,3 +418,19 @@ p{
 	color: grey;
 	padding: 2.2px;
 }
+.post-sidebox{
+	display: flex; 
+	float:right;
+}
+.post-sidebox a{
+	text-decoration: none;
+	color: grey;
+	border: 1px solid #828583;
+	padding: 5px;
+}
+.post-sidebox2{
+	display: flex;
+	padding-left: 15px;
+}
+.fill{
+	backgroun
