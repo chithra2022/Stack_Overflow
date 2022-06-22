@@ -8,7 +8,10 @@
 }
 .top_container{
 	border-top: 3px solid #e66027;
-	border-bottom: 2px solid #e3e6e4;	
+	border-bottom: 2px solid #e3e6e4;
+	position: fixed;
+	overflow-y: scroll;	
+	background-color: white;
 }
 .header{
 	display: flex;
@@ -16,8 +19,7 @@
 	padding-bottom: 5px;
 	padding-top: 5.5px;
 	margin-left: 50px;
-	margin-right: 50px;
-	
+	margin-right: 50px;	
 }
 .left_header{
 	display: flex;
@@ -27,7 +29,6 @@
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
-	width: 70%;	
 }
 .right_header{
 	align-items: center;
@@ -37,8 +38,7 @@
 	display: flex;
 	margin-left: 49px;
 	margin-right: 50px;
-	margin-bottom: 20px;
-	overflow-y: hidden;	
+	margin-bottom: 20px;		
 }
 .img_logo{
 	width: 145px;
@@ -62,7 +62,7 @@
 	font-size: 13px;
 	padding: 6px;
 	padding-left: 33px;
-	width: 780px;
+	width: 730px;
 	background-color: transparent;
 	outline: none;	
 }
@@ -78,7 +78,11 @@
 	font-size: 13px;
 	color: grey;
 	width: 160px;
+	margin-top: 50px;
 	padding-top: 10px;
+	overflow-y: scroll;
+	position: fixed;
+	height: 90vh;
 }
 .promo{
 	color:black;
@@ -100,7 +104,8 @@
 .middle{
 	font-size: 13px;
 	color: grey;
-	margin: 5px;	
+	margin-left: 160px;
+	margin-top: 50px;	
 }
 .pro_pic{
 	width: 130px;
@@ -113,6 +118,7 @@
 .side_promo{
 	border: 2px solid #e3e6e4;
 	padding-left: 7px;
+	padding-top: 5px;
 }
 .btn{
 	border: 1px solid #ed6205;
@@ -306,12 +312,10 @@ p{
 	border: 2px solid #e3e6e4;
 	margin-right: 25px;
 	padding: 5px;
-	/*width: 100%;*/
 }
 .badge1{
 	border: 2px solid #e3e6e4;
 	padding: 5px;
-	/*width: 100%;*/
 }
 .gold{
 	border: 2px solid #e3e6e4;
@@ -433,4 +437,5 @@ p{
 	padding-left: 15px;
 }
 .fill{
-	backgroun
+	background-color: #cfd1d0;
+}
