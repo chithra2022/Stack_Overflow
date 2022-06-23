@@ -9,9 +9,9 @@
 .top_container{
 	border-top: 3px solid #e66027;
 	border-bottom: 2px solid #e3e6e4;
-	position: fixed;
-	overflow-y: scroll;	
+	position: fixed;	
 	background-color: white;
+	z-index: 1;
 }
 .header{
 	display: flex;
@@ -19,7 +19,7 @@
 	padding-bottom: 5px;
 	padding-top: 5.5px;
 	margin-left: 50px;
-	margin-right: 50px;	
+	margin-right: 50px;
 }
 .left_header{
 	display: flex;
@@ -81,8 +81,9 @@
 	margin-top: 50px;
 	padding-top: 10px;
 	overflow-y: scroll;
-	position: fixed;
-	height: 90vh;
+	position: sticky;
+	height: 550px;
+	top: 50px;
 }
 .promo{
 	color:black;
@@ -104,8 +105,9 @@
 .middle{
 	font-size: 13px;
 	color: grey;
-	margin-left: 160px;
-	margin-top: 50px;	
+	margin-left: 5px;
+	margin-top: 50px;
+	padding: 10px;	
 }
 .pro_pic{
 	width: 130px;
@@ -119,6 +121,8 @@
 	border: 2px solid #e3e6e4;
 	padding-left: 7px;
 	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-top: 8px;
 }
 .btn{
 	border: 1px solid #ed6205;
@@ -187,7 +191,7 @@ li{
 }
 .footer{
 	Background-color: #242526;
-	display: flex;
+	display: flex; 
 }
 .foots{
 	display: flex;
