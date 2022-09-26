@@ -3,9 +3,6 @@
 	padding: 0;
 	font-family: segoe ui;
 }
-.container{
-	height: 100vh;		
-}
 .top_container{
 	border-top: 3px solid #fa7b37;
 	border-bottom: 2px solid #e3e6e4;
@@ -73,7 +70,7 @@
 	cursor: pointer;
 }
 .left_sidebar{
-	display: flex;
+	display: block;
 	font-size: 13px;
 	color: grey;
 	width: 160px;
@@ -93,11 +90,11 @@
 	color:black;
 	font-weight: bold;
 }
-.left_sidebar dt{
+.left_sidebar li{
 	padding-top: 20px;
 	cursor: pointer;
 }
-.left_sidebar dd{
+.left_sidebar .sublists{
 	padding-top: 15px;
 	padding-left: 20px;
 	cursor: pointer;
@@ -145,7 +142,7 @@
 	cursor: pointer;
 	text-align: center;
 }
-h6{
+.why{
 	text-align: center;
 	padding: 6px;
 	font-size: 12px;
@@ -275,7 +272,7 @@ h2{
 .cloud{
 	color: #2a2a2b;
 }
-#view_all{
+.view_all{
 	font-size: 13px;
 	color: grey;
 	float: right;
@@ -297,7 +294,7 @@ a{
 	display: inline-block;
 	padding-left: 25px;
 }
-.third_mid_right h3{
+.third_mid_right .headings{
 	color: black;
 	font-size: 15px;
 	font-weight: 400;
@@ -337,22 +334,9 @@ p{
 }
 .gold{
 	border: 2px solid #e3e6e4;
-	list-style-type: disc;
-	color: #fcb103;
-	padding: 3px;
-} 
-.silver{
-	border: 2px solid #e3e6e4;
-	list-style-type: disc;
-	color: grey;
-	padding: 3px;
-} 
-.bronze{
-	border: 2px solid #e3e6e4;
-	list-style-type: disc;
-	color: brown;
-	padding: 3px;
-} 
+	margin-top: 5px;
+	display: flex;
+}
 .small_box{	
 	color:#2d2d2e;
 	font-weight: 400;
